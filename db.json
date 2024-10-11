@@ -1,0 +1,53 @@
+{
+  "musicas": [
+    {
+      "id": 1,
+      "nome": "Zombie",
+      "price": 8.00,
+      "artista": "Bad Wolves",
+      "ano": 2018
+    },
+    {
+      "id": 2,
+      "nome": "Time Stand Still",
+      "price": 9.00,
+      "artista": "Rush",
+      "ano": 1987
+    },
+    {
+      "id": 3,
+      "nome": "Tom Sawyer",
+      "price": 9.00,
+      "artista": "Rush",
+      "ano": 1981
+    },
+    {
+      "id": 4,
+      "nome": "The kids aren't alright",
+      "price": 8.00,
+      "artista": "The Offspring",
+      "ano": 1997
+    },
+    {
+      "id": 5,
+      "nome": "Ugly kid joe",
+      "price": 8.00,
+      "artista": "Cats in the cradle",
+      "ano": 1994
+    },
+    {
+      "id": 6,
+      "nome": "Heaven",
+      "price": 0.99,
+      "artista": "Live",
+      "ano": 1995
+    },
+    {
+      "id": 7,
+      "nome": "Que país é esse",
+      "price": 0.99,
+      "artista": "Legião Urbana",
+      "ano": 1987
+    }
+  ]
+}

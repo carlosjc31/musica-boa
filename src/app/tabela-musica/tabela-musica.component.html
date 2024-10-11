@@ -1,0 +1,21 @@
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">nome</th>
+      <th scope="col">price</th>
+      <th scope="col">artista</th>
+      <th scope="col">ano</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *@For="let musica of musicas">
+      <th scope="row">{{musica.id}}</th>
+      <td>{{musica.nome}}</td>
+      <td>{{musica.price}}</td>
+      <td>{{musica.artista}}</td>
+      <td>{{musica.ano}}</td>
+    </tr>
+  </tbody>
+</table>
