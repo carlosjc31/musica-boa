@@ -1,0 +1,23 @@
+<p>tabela-musicas works!</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Nome</th>
+      <th scope="col">categoria</th>
+      <th scope="col">Artista</th>
+      <th scope="col">Ano</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let musica of musicas">
+      <th scope="row">{{musica.id}}</th>
+      <td><a [routerLink]="['/musicas', musica.id]">{{musica.nome}}</a></td>
+      <td>{{musica.categoria}}</td>
+      <td>{{musica.artista}}</td>
+      <td>{{musica.ano}}</td>
+      <th scope="col">Acões</th>
+      <td><button class="btn btn-danger"(click)="delete(musica)">Excluir</button></td>
+    </tr>
+  </tbody>
+</table>

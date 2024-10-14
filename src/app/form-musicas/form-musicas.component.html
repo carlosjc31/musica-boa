@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nome</label>
+      <input type="text" formControlName="name" class="form-control" id="name" placeholder="Nome da musica">
+    </div>
+    <div class="mb-3">
+      <label for="artista" class="form-label">Artista</label>
+      <input type="text" formControlName="artista" class="form-control" id="artista" placeholder="Artista da musica">
+    </div>
+    <div class="mb-3">
+      <label for="album" class="form-label">Album</label>
+      <input type="text" formControlName="album" class="form-control" id="album" placeholder="Album da musica">
+    </div>
+    <div class="mb-3">
+      <label for="ano" class="form-label">Ano</label>
+      <input type="number" formControlName="ano" class="form-control" id="ano" placeholder="Ano da musica">
+    </div>
+    <button type="submit" (click)="update()" class="btn btn-primary">Salvar</button>
+</div>
+
